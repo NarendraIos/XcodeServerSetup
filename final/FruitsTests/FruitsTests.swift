@@ -44,7 +44,7 @@ class FruitsTests: XCTestCase {
 	}
 
 	func testFruitsContainsBanana() throws {
-		XCTAssert(fruits.contains { $0.name == "Banan 🍌" })
+		XCTAssert(fruits.contains { $0.name == "Banana 🍌" })
 	}
 }
 
